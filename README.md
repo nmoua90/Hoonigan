@@ -5,7 +5,7 @@
 - [ ] Learn how to use GIT
 - [x] Edit the Header File 
 
-# Quick Tutorial on How to Use Git
+## Quick Tutorial on How to Use Git
 	> Fork this Repository onto your Git account by Clicking In the Upper Right Corner
 	
 	> Open GitBash and navigate to your directory of choice via the "cd" keyword
