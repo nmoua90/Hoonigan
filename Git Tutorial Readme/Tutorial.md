@@ -76,7 +76,7 @@ For every REPOSITORY:
 
 2. You will have one corresponding GITHUB REPOSITORY on your Github Account
 	
-##FORKING: Copying SOMEONE ELSE'S GITHUB REPOSITORY and putting them on YOUR GITHUB 
+##FORKING: Copying SOMEONE ELSE'S GITHUB REPOSITORY and putting it on YOUR GITHUB REPOSITORY 
 
 After you FORK, you will have a corresponding GITHUB REPOSITORY on your Github Account
 
@@ -101,7 +101,7 @@ You can start editing files in your LOCAL REPOSITORY as needed
 When done, you'll UPDATE YOUR LOCAL FILES, by typing the following:
 			
 			git add .
-			git commit -m 'Add a message, that tells wht updates you did.'
+			git commit -m 'Add a message, that tells what updates you did.'
 	
 Then PUSH the local updates onto YOUR GITHUB REPOSITORY via:
 			

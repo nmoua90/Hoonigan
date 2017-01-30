@@ -23,3 +23,7 @@ When you're done editing, type the following
 		git add .
 		git commit -m 'I edited some files'
 		git push origin master
+		
+NOTE
+----------
+[https://github.com/nmoua90/Hoonigan/blob/master/Git%20Tutorial%20Readme/Tutorial.md](Link for Git tips)
