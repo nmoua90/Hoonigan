@@ -1,5 +1,7 @@
 ![Flashy!](http://i.picasion.com/gl/85/7hnh.gif)
+
 (https://hooniganteam.slack.com/messages/general/)
+------------------------------------------------------
 
 TASKS
 ----------
@@ -28,4 +30,5 @@ When you're done editing, type the following
 ADDITIONAL GIT TUTORIAL(S)
 ----------
 (https://github.com/nmoua90/Hoonigan/blob/master/Git%20Tutorial%20Readme/Tutorial.md)
+
 (https://github.com/LearnFrontEnd/fork-me)
