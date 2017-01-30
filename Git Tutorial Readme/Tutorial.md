@@ -1,7 +1,7 @@
 ## Before We Begin 
 In my opinion, the easiest way to use GitHub is with GitBash command line
 
-		[https://git-scm.com/downloads]
+		[https://git-scm.com/downloads](https://git-scm.com/downloads)
 		
 
 ##USEFUL GIT COMMANDS:
