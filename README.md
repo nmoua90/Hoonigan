@@ -54,23 +54,21 @@ Clone into your local machine by navigating to directory of your choice and typi
 
 When you have both:
 
-1. LOCAL REPOSITORY
+**1. LOCAL REPOSITORY**
 
-2. GITHUB REPOSITORY
+**2. GITHUB REPOSITORY**
 
-You can edit the files in your LOCAL REPOSITORY as you wish
+Edit files in your LOCAL REPOSITORY as needed
 
-When you're done editing your LOCAL FILES, you'll want to update them
+When done, you'll want to save your changes
 
 In order to UPDATE YOUR LOCAL FILES, type the following:
 			
 			git add .
 			git commit -m 'Add a message, that tells wht updates you did.'
 	
-After you've updated your local files, you might want to UPDATE YOUR GITHUB REPOSITORY files
+After you've updated your local files, PUSH the local updates onto YOUR GITHUB REPOSITORY
 
 To do this, type:
 			
 			git push origin master
-	
-That's it!
