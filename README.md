@@ -33,24 +33,27 @@ In my opinion, the easiest way to use GitHub is with GitBash command line
 ##This is how Git + GitHub works
 	
 **REPOSITORIES:** *The Git Folders where you store files*
-* When you have ONE REPOSITORY
+When you have ONE REPOSITORY
 	* You will have one corresponding LOCAL REPOSITORY on your computer
 	* You will have one corresponding GITHUB REPOSITORY on your Github Account
-		* *It's useful to know that: You can create your own personal REPOSITORY*
-		* *It's useful to know that: You can FORK someone else's personal REPOSITORY*
+It's useful to know that: You can create your own personal REPOSITORY
+It's useful to know that: You can FORK someone else's personal REPOSITORY
 	
 **FORKING:** *The act of copying all the files in SOMEONE ELSE'S GITHUB REPOSITORY, and put those files onto a REPOSITORY ON YOUR Github Account*
-	* After you FORK, you will have a corresponding GITHUB REPOSITORY on your Github Account
-	* Remember though: We said that when you have a REPOSITORY, you need (1) LOCAL REPOSITORY and (1) GITHUB REPOSITORY
-	* This means that after FORKING, you have (1) GITHUB REPOSITORY, but you're still missing the (1) LOCAL REPOSITORY
-		* How do you fix this?
+
+* After you FORK, you will have a corresponding GITHUB REPOSITORY on your Github Account
+* Remember though: We said that when you have a REPOSITORY, you need (1) LOCAL REPOSITORY and (1) GITHUB REPOSITORY
+* This means that after FORKING, you have (1) GITHUB REPOSITORY, but you're still missing the (1) LOCAL REPOSITORY
+	* How do you fix this?
 	
 **CLONING:** *Taking all the files in a GITHUB REPOSITORY and copy them into a LOCAL REPOSITORY on your machine*
-	* Clone by navigating to directory of your choice and typing:
+
+
+Clone by navigating to directory of your choice and typing:
 			
 			git clone [Github_repository_url]
 		
-	* The above command clones the GITHUB REPOSITORY URL onto your LOCAL REPOSITORY
+The above command clones the GITHUB REPOSITORY URL onto your LOCAL REPOSITORY
 	
 Now that you have (1) LOCAL REPOSITORY and (1) GITHUB REPOSITORY
 	* You can edit the files in your LOCAL REPOSITORY as you wish
