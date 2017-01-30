@@ -30,11 +30,11 @@ In my opinion, the easiest way to use GitHub is with GitBash command line
 
 		https://git-scm.com/downloads
 		
-##This is how Git + GitHub works
+##DEFINITIONS: How Git + GitHub work
 	
-**REPOSITORIES:** *The Git Folders where you store files*
+##REPOSITORIES: The Git Folders where you store files
 
-*When you have ONE REPOSITORY*
+When you have ONE REPOSITORY
 
 	* You will have one corresponding LOCAL REPOSITORY on your computer
 
@@ -44,7 +44,7 @@ It's useful to know that: You can create your own personal REPOSITORY
 
 It's useful to know that: You can FORK someone else's personal REPOSITORY
 	
-**FORKING:** *The act of copying all the files in *SOMEONE ELSE'S GITHUB REPOSITORY*, and put those files onto a *REPOSITORY ON YOUR* Github Account*
+##FORKING: Copying SOMEONE ELSE'S GITHUB REPOSITORY and putting them on YOUR GITHUB 
 
 * After you FORK, you will have a corresponding GITHUB REPOSITORY on your Github Account
 
@@ -52,19 +52,15 @@ It's useful to know that: You can FORK someone else's personal REPOSITORY
 
 * This means that after FORKING, you have (1) GITHUB REPOSITORY, but you're still missing the (1) LOCAL REPOSITORY
 
-* How do you fix this?
-	
-**CLONING:** *Taking all the files in a GITHUB REPOSITORY and copy them into a LOCAL REPOSITORY on your machine*
+##CLONING: Taking all the files in a GITHUB REPOSITORY and copying them onto a LOCAL REPOSITORY
 
-
-Clone by navigating to directory of your choice and typing:
+Clone into your local machine by navigating to directory of your choice and typing:
 			
 			git clone [Github_repository_url]
 		
-The above command clones the GITHUB REPOSITORY URL onto your LOCAL REPOSITORY
-	
-Now that you have (1) LOCAL REPOSITORY and (1) GITHUB REPOSITORY
+##PUSING: Uploading your LOCAL FILES onto YOUR GITHUB REPOSITORY
 
+Now you have (1) LOCAL REPOSITORY and (1) GITHUB REPOSITORY
 	* You can edit the files in your LOCAL REPOSITORY as you wish
 
 	* When you're done editing your LOCAL FILES, you'll want to update them
