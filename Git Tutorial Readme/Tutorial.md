@@ -1,7 +1,7 @@
 ## Before We Begin 
 In my opinion, the easiest way to use GitHub is with GitBash command line
 
-		[GitBash](https://git-scm.com/downloads)
+		[https://git-scm.com/downloads]
 		
 
 ##USEFUL GIT COMMANDS:
@@ -92,21 +92,17 @@ Clone into your local machine by navigating to directory of your choice and typi
 
 When you have both of the following:
 
-	**1. LOCAL REPOSITORY**
+			1. LOCAL REPOSITORY
 
-	**2. GITHUB REPOSITORY**
+			2. GITHUB REPOSITORY
 
 You can start editing files in your LOCAL REPOSITORY as needed
 
-When done, you'll want to save your changes
-
-In order to UPDATE YOUR LOCAL FILES, type the following:
+When done, you'll UPDATE YOUR LOCAL FILES, by typing the following:
 			
 			git add .
 			git commit -m 'Add a message, that tells wht updates you did.'
 	
-After you've updated your local files, PUSH the local updates onto YOUR GITHUB REPOSITORY
-
-To do this, type:
+Then PUSH the local updates onto YOUR GITHUB REPOSITORY via:
 			
 			git push origin master
