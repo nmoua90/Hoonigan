@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.Gson;
+import com.google.gson.*;
 
 /** Parser
  * 
@@ -57,23 +58,27 @@ public class Parser {
 
 			//If the array of libraryItems is not empty, for all elements in array, add all elements to our Data Structure
 				//Note: if we change the Data Structure to a HashMap, make sure the the 'add' methods below work
-			if (fInfo != null){
+			if(fInfo != null){
 				for (HowToParseLibraryItems lItems : fInfo.getLibraryItems()){
 					if(lItems.getItemType().compareToIgnoreCase("DVD") == 0){
-						libraryList.add(new DVD(lItems.getItemName(), lItems.getItemType(), lItems.getItemId()));
+						libraryList.add(new DVD(lItems.getItemName(), lItems.getItemType().toUpperCase(), lItems.getItemId()));
 					}
 					else if(lItems.getItemType().compareToIgnoreCase("Magazine") == 0){
-						libraryList.add(new Magazine(lItems.getItemName(), lItems.getItemType(), lItems.getItemId()));
+						libraryList.add(new Magazine(lItems.getItemName(), lItems.getItemType().toUpperCase(), lItems.getItemId()));
 					}
 					else if(lItems.getItemType().compareToIgnoreCase("Book") == 0){
-						libraryList.add(new Book(lItems.getItemName(), lItems.getItemType(), lItems.getItemId(), lItems.getItemAuthor()));
+						libraryList.add(new Book(lItems.getItemName(), lItems.getItemType().toUpperCase(), lItems.getItemId(), lItems.getItemAuthor()));
 					}
 					else if(lItems.getItemType().compareToIgnoreCase("CD") == 0){
-						libraryList.add(new CD(lItems.getItemName(), lItems.getItemType(), lItems.getItemId(), lItems.getItemArtist()));
+						libraryList.add(new CD(lItems.getItemName(), lItems.getItemType().toUpperCase(), lItems.getItemId(), lItems.getItemArtist()));
+					}
+					else{
+						//If lItems.getItemType() is NOT one of CD/DVD/Magazine/Book, do nothing 
 					}
 				}
-			}			
-		}catch(Exception e){ //Changed from the original FileNotFoundException... (May be an issue if File Not Found?)
+			}else
+				System.out.println("Your input JSON File is empty.");
+		}catch(JsonParseException  e){ //Changed from the original FileNotFoundException... (May be an issue if File Not Found?)
 			e.printStackTrace();
 		}
 		
