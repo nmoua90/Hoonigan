@@ -1,8 +1,26 @@
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * Added comments
+ * 		Future Needs:
+ * 			Need to add the various fields we have on our Subclasses, such as checkedIn
+ * @author Nhia
+ *
+ */
 public class LibraryItems {
 
+	/**
+	 * If you run across a name_of_field, put the field in name_of_variable
+	 * 		name_of_field		name_of_variable
+	 * 		-------------		----------------
+	 * 		item_name			itemName
+	 * 		item_type			itemType
+	 * 		item_id				itemId
+	 * 		item_artist			itemArtist
+	 * 		item_author			itemAuthor
+	 */
+	
 	@SerializedName("item_name")
 	@Expose
 	private String itemName;
