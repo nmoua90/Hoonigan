@@ -2,13 +2,12 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Added comments
- * 		Future Needs:
- * 			Need to add the various fields we have on our Subclasses, such as checkedIn
+ * This class defines the Parsing Rules, which will determine how the GSON Parser parses the JSON file
+ * 
  * @author Nhia
  *
  */
-public class LibraryItems {
+public class HowToParseLibraryItems {
 
 	/**
 	 * If you run across a name_of_field, put the field in name_of_variable

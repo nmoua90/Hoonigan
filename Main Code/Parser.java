@@ -6,9 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import com.google.gson.Gson;
 
-/**
- * Edited Parser to have fields, constructor, conditionals to check for idType
- * @author Nhia
+/** Parser
+ * 
+ * 	This class instantiates the Gson parser, and reads a JSON file that is passed in through Parser(). It has a method
+ * 		which returns an ArrayList<Library_Items> of all parsed elements.
  *
  */
 
@@ -22,7 +23,7 @@ public class Parser {
 	private Gson gson;
 	private BufferedReader br;
 	private FileInfo fInfo;
-	private List<Library_Items> libraryList;
+	private List<Library_Items> libraryList;	//replace with HashMap (?)
 	
 	/**
 	 * 
@@ -45,7 +46,7 @@ public class Parser {
 	}
 	
 	/** parse()
-	 * 		Parses a json file
+	 * 		Parses a json file, and returns an ArrayList of Library_Items
 	 */
 	public List<Library_Items> parse(){	
 		/** Try the following:
@@ -54,9 +55,10 @@ public class Parser {
 		 */
 		try{
 
-			//If the array is not empty, for all items in array, print all the fields with a print statement
+			//If the array of libraryItems is not empty, for all elements in array, add all elements to our Data Structure
+				//Note: if we change the Data Structure to a HashMap, make sure the the 'add' methods below work
 			if (fInfo != null){
-				for (LibraryItems lItems : fInfo.getLibraryItems()){
+				for (HowToParseLibraryItems lItems : fInfo.getLibraryItems()){
 					if(lItems.getItemType().compareToIgnoreCase("DVD") == 0){
 						libraryList.add(new DVD(lItems.getItemName(), lItems.getItemType(), lItems.getItemId()));
 					}
@@ -71,7 +73,7 @@ public class Parser {
 					}
 				}
 			}			
-		}catch(Exception e){ //Changed from the original FileNotFoundException... because of unknown error... Help?
+		}catch(Exception e){ //Changed from the original FileNotFoundException... (May be an issue if File Not Found?)
 			e.printStackTrace();
 		}
 		

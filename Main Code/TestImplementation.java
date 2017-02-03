@@ -7,17 +7,18 @@ import com.google.gson.Gson;
 import java.util.List;
 import java.util.ArrayList;
 
-/**
- * Edited TestDrive to be more robust, instead of copying reused code from Parser.java
- * 		  Was able to redesign Main method via changing the implementation of the Parser class
- *		  View Parser.java comments to see changes
+/** THIS CLASS WILL NOT BE PART OF OUR FINISHED PROGRAM
+ * 
+ * This Class tests to make sure that our JSON file parses correctly into Library_Items Objects [and its 4 Subclasses of Book, CD, DVD, Magazine]
+ * 		Once parsed, the Library_Items are  stored in an ArrayList
+ * 
  * @author Nhia
  *
  */
-public class TestDrive {
+public class TestImplementation {
 	public static void main(String[] args) {
 		try{
-			//Read Json file
+			//Read Json file, change Directory of File as needed
 			BufferedReader br = new BufferedReader(new FileReader("C:/hello.json"));
 			
 			//Create Parser instance which takes in our Json file
