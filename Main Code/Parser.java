@@ -1,0 +1,92 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import com.google.gson.Gson;
+
+/**
+ * Edited Parser to have fields, constructor, conditionals to check for idType
+ * @author Nhia
+ *
+ */
+
+//need to change after we decide on hashmap or not
+public class Parser {	
+	/** Declaring fields
+	 * 		- Gson is a Json object
+	 *		- BufferedReader is a Class that reads some character input stream
+	 *		- FileInfo is a class that contains an ArrayList that holds LibraryItems
+	 */
+	private Gson gson;
+	private BufferedReader br;
+	private FileInfo fInfo;
+	private List<Library_Items> libraryList;
+	
+	/**
+	 * 
+	 * @param br is the location of the passed in JSON FILE
+	 */
+	Parser(BufferedReader br){
+		this.gson = new Gson();
+		this.br = br;
+		this.fInfo = gson.fromJson(br, FileInfo.class);
+		this.libraryList = new ArrayList<Library_Items>();
+	}
+	
+	//Getters and Setters for Data Structure that holds Sub-Classes of Library_Items
+	public List<Library_Items> getLibraryList(){
+		return this.libraryList;
+	}
+	
+	public void setLibraryList(List<Library_Items> li){
+		this.libraryList = li;
+	}
+	
+	/** parse()
+	 * 		Parses a json file
+	 */
+	public List<Library_Items> parse(){	
+		/** Try the following:
+		 * 		- Our BufferedReader reads the Json file at FileReader(Location) 
+		 * 		- Our FileInfo array is == (whatever_the_reader_read, parsed_by_the_FileInfo_rules)
+		 */
+		try{
+
+			//If the array is not empty, for all items in array, print all the fields with a print statement
+			if (fInfo != null){
+				for (LibraryItems lItems : fInfo.getLibraryItems()){
+					if(lItems.getItemType().compareToIgnoreCase("DVD") == 0){
+						libraryList.add(new DVD(lItems.getItemName(), lItems.getItemType(), lItems.getItemId()));
+					}
+					else if(lItems.getItemType().compareToIgnoreCase("Magazine") == 0){
+						libraryList.add(new Magazine(lItems.getItemName(), lItems.getItemType(), lItems.getItemId()));
+					}
+					else if(lItems.getItemType().compareToIgnoreCase("Book") == 0){
+						libraryList.add(new Book(lItems.getItemName(), lItems.getItemType(), lItems.getItemId(), lItems.getItemAuthor()));
+					}
+					else if(lItems.getItemType().compareToIgnoreCase("CD") == 0){
+						libraryList.add(new CD(lItems.getItemName(), lItems.getItemType(), lItems.getItemId(), lItems.getItemArtist()));
+					}
+				}
+			}			
+		}catch(Exception e){ //Changed from the original FileNotFoundException... because of unknown error... Help?
+			e.printStackTrace();
+		}
+		
+		finally{
+			if (br != null) {
+				try{
+					br.close();
+				}
+				catch (IOException e) {
+					e.printStackTrace();
+				}
+			}	
+		}
+		
+		return libraryList;
+	}
+
+}
