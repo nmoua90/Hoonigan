@@ -113,27 +113,33 @@ public class CD extends Library_Items{
 	}
 	
 	/**checkOut()
-	 * This method sets the checkedOut field to true.
+	 * This method sets the checkedOut field to true, resets the returnDate, and sets the returnDate as needed.
 	 */
 	public void checkOut(){
-		if(checkedOut == false)
+		if(checkedOut == false){
+			//If you're going to check it out, calculate the current day
+			returnDate = LocalDate.now().toString();
 			checkedOut = true;
+			//Added x days to the current day, to get the return date
+			returnDate = LocalDate.parse(returnDate).plusDays(7).toString();
+		}
 	}
 	
 	/**checkIn()
 	 * This method sets the checkedOut field to false.
 	 */
 	public void checkIn(){
-		if(checkedOut == true)
+		if(checkedOut == true){
 			checkedOut = false;
+		}
 	}
 	
 	/**returnDate()
-	 * This method returns a checkout date that corresponds to 7 days past the current day.
+	 * This method returns a checkout date that corresponds to 21 days past the current day.
 	 * @return a String which represents a date
 	 */
 	public String returnDate(){
-		return LocalDate.parse(returnDate).plusDays(7).toString();
+		return returnDate.toString();
 	}
 	
 	/**status()

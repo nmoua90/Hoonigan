@@ -19,7 +19,7 @@ abstract class Library_Items {
     public abstract void setItem_type(String item_type);
     public abstract String getItem_id();
     public abstract void setItem_id(String item_id);
-
+    
     //change checkout values
     public abstract void checkOut();
     public abstract void checkIn();
@@ -29,6 +29,9 @@ abstract class Library_Items {
 
     //returns returnDate of checkedOut items
      public abstract String returnDate();
+     
+     //returns String information about checkOut status
+     public abstract String status();
 
     //Typical toString method
     @Override

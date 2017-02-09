@@ -112,19 +112,25 @@ public class Book extends Library_Items{
 	}
 	
 	/**checkOut()
-	 * This method sets the checkedOut field to true.
+	 * This method sets the checkedOut field to true, resets the returnDate, and sets the returnDate as needed.
 	 */
 	public void checkOut(){
-		if(checkedOut == false)
+		if(checkedOut == false){
+			//If you're going to check it out, calculate the current day
+			returnDate = LocalDate.now().toString();
 			checkedOut = true;
+			//Added x days to the current day, to get the return date
+			returnDate = LocalDate.parse(returnDate).plusDays(21).toString();
+		}
 	}
 	
 	/**checkIn()
 	 * This method sets the checkedOut field to false.
 	 */
 	public void checkIn(){
-		if(checkedOut == true)
+		if(checkedOut == true){
 			checkedOut = false;
+		}
 	}
 	
 	/**returnDate()
@@ -132,7 +138,7 @@ public class Book extends Library_Items{
 	 * @return a String which represents a date
 	 */
 	public String returnDate(){
-		return LocalDate.parse(returnDate).plusDays(21).toString();
+		return returnDate.toString();
 	}
 	
 	/**status()
