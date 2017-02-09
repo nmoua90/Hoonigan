@@ -14,7 +14,7 @@ public class Book extends Library_Items{
 	 *	- item_type is initialized in the non-default CD Constructor. It's value can be changed, though changing it is not realistically supposed to be done.
 	 *  - item_id is initialized in the non-default CD Constructor. It's value can be changed, though changing it is not realistically supposed to be done.
 	 *  - item_author is initialized in the non-default CD Constructor. It's value can be changed, though changing it is not realistically supposed to be done.
-	 *  - returnDate is initially set to the current date. When returnDate() is called, returnDate's value changes accordingly. returnDate's value is expected to be changed regularly as needed.
+	 *  - returnDate is initially set to 'NONE'. When checkOut() is called, returnDate's value changes accordingly. returnDate's value is expected to be changed regularly as needed.
 	 *  - checkedOut is initially set to false, and is able to be set to either true or false depending on whether checkIn() or checkOut() modify it. checkedOut's value is expected to change 
 	 *  regularly as needed, but cannot be changed if the changing value is already the current value. For example, if the value is false, trying to change the value to false will not yield an actual reassignment.
 	 */ 
@@ -44,7 +44,7 @@ public class Book extends Library_Items{
 		item_id = id;
 		item_author = author;
 		checkedOut = false;
-		returnDate = LocalDate.now().toString();
+		returnDate = "NONE";
 	}
 
 	/**getItem_name()
@@ -119,6 +119,7 @@ public class Book extends Library_Items{
 			//If you're going to check it out, calculate the current day
 			returnDate = LocalDate.now().toString();
 			checkedOut = true;
+			
 			//Added x days to the current day, to get the return date
 			returnDate = LocalDate.parse(returnDate).plusDays(21).toString();
 		}
@@ -130,6 +131,7 @@ public class Book extends Library_Items{
 	public void checkIn(){
 		if(checkedOut == true){
 			checkedOut = false;
+			returnDate = "NONE";
 		}
 	}
 	
