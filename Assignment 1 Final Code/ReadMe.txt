@@ -1,20 +1,29 @@
 Hoonigan ReadMe
 --------------------------------------------
+FOR REFERENCE
+
+(1) 'hoonigan.zip' contains source files & GSON jar
+
+(2) 'documentation.zip' contains JavaDocs
+
+(3) 'UML & Sequence Diagrams.zip' contains UML and Sequence Diagram of The HOONIGAN LIBRARY PROGRAM
+
+--------------------------------------------
 BACKGROUND INFORMATION
 
 (1) The HOONIGAN LIBRARY PROGRAM runs on JAVA 
 
 (2) The HOONIGAN LIBRARY PROGRAM source files are linked through a Package called 'hoonigan'
 
-(3) To run the HOONIGAN LIBRARY PROGRAM, all java source files included in the zip file must be stored in your source folder under a corresponding 'hoonigan' directory
+(3) To run the HOONIGAN LIBRARY PROGRAM, all java source files included in 'hoonigan.zip' file must be stored in your source folder under a corresponding 'hoonigan' directory
 
 (4) The HOONIGAN LIBRARY PROGRAM uses GSON to parse incoming JSON files
 
-(5) The required and appropriate GSON jar file needed for our library has been included within our zip file
+(5) The required and appropriate GSON jar file needed for our library has been included within our 'hoonigan.zip' file
  
 (6) The HOONIGAN LIBRARY PROGRAM was written using the ECLIPSE IDE
 
-(7) JavaDocs DOCUMENTATION for the HOONIGAN LIBRARY PROGRAM can be founded in the 'Hoonigan - Assignment 1 Java Docs' folder
+(7) JavaDocs DOCUMENTATION for the HOONIGAN LIBRARY PROGRAM can be founded in 'Documentation.zip'
 
 --------------------------------------------
 HOW TO RUN OUR PROGRAM
