@@ -1,5 +1,3 @@
-![Flashy!](http://i.picasion.com/gl/85/7hnh.gif)
-
 (https://hooniganteam.slack.com/messages/general/)
 ------------------------------------------------------
 
@@ -34,11 +32,11 @@ SPRINT 2 CHECKLIST:
 - [ ] **Unit Test Feature 3** - The XML Parser
 - [ ] **Unit Test Feature 4** - The GUI
 - [ ] **Unit Test Misc Features(?)** - As needed...
-- [ ] Generate Java Docs based on commented code
+- [ ] **Generate Java Docs based on commented code**
 
 OPTINAL TASKS
 --------------
-- [ ] Complete new UML Diagram to help us diagram entire project
+- [ ] **Complete new UML Diagram to help us diagram entire project**
 
 
 Quick Tutorial on How to Use Git 
