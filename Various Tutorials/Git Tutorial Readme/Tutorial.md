@@ -106,3 +106,20 @@ When done, you'll UPDATE YOUR LOCAL FILES, by typing the following:
 Then PUSH the local updates onto YOUR GITHUB REPOSITORY via:
 			
 			git push origin master
+
+			ADDITIONAL GIT TUTORIAL(S)
+			
+
+##MORE TUTORIALS:
+
+PERSONAL TUTORIAL:
+(https://github.com/nmoua90/Hoonigan/blob/master/Various%20Tutorials/Git%20Tutorial%20Readme/Tutorial.md)
+
+HOW TO FORK:
+(https://github.com/LearnFrontEnd/fork-me)
+
+HOW TO UPDATE YOUR FORK USING GITBASH:
+(https://gist.github.com/CristinaSolana/1885435)
+
+HOW TO UPDATE YOUR FORK USING GITHUB WEBSITE:
+(http://www.hpique.com/2013/09/updating-a-fork-directly-from-github/)
