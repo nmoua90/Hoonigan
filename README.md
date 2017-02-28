@@ -16,7 +16,7 @@ SPRINT 1:
 - [ ] CREATE FINAL DRAFT OF REQUIREMENTS: Nhia & David
 
 SPRINT 2:
-- [ ] Feature 1: David & Dylan 
+- [ ] **Feature 1:** David & Dylan 
 - [ ] Feature 2: Izhar & Andy
 - [ ] Feature 3: Matt & Andy
 - [ ] Feature 4: Matt & Nhia
