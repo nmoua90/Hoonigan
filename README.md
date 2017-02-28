@@ -1,4 +1,4 @@
-(https://hooniganteam.slack.com/messages/general/)
+[JOIN OUR SLACK CHAT](https://hooniganteam.slack.com/messages/general/)
 ------------------------------------------------------
 
 SPRINT 1 TASKS & CHECKLIST:
@@ -35,7 +35,7 @@ SPRINT 2 TASKS & CHECKLIST:
 - [ ] **Unit Test Misc Features(?)** - As needed...
 - [ ] **Generate Java Docs based on commented code**
 
-**OPTINAL TASKS:**
+**OPTIONAL TASKS:**
 - [ ] **Complete new UML Diagram to help us diagram entire project**
 
 
