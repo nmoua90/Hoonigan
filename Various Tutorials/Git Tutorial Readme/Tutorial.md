@@ -113,7 +113,7 @@ Then PUSH the local updates onto YOUR GITHUB REPOSITORY via:
 ##MORE TUTORIALS:
 
 PERSONAL TUTORIAL:
-(https://github.com/nmoua90/Hoonigan/blob/master/Various%20Tutorials/Git%20Tutorial%20Readme/Tutorial.md)
+(https://github.com/nmoua90/Hoonigan/tree/master/Various%20Tutorials/GitHub%20Tutorial%20Readme)
 
 HOW TO FORK:
 (https://github.com/LearnFrontEnd/fork-me)
