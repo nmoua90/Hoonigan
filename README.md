@@ -23,8 +23,8 @@ GROUP MEMBERS ASSIGNED TASKS:
 
 SPRINT 2 CHECKLIST:
 ----------
-- [ ] Re-Touch Code from [Stage 4] Assignment 1 to fix detrimental comments included in Prof's Email [Rename certain classes, variables, etc.]
-- [ ] Make sure to comment all code so it is clear what the code is doing [readability for other group members]. Comment in Java Docs style for readability, and ability to output Java Docs at end of project.
+- [ ] **Re-Touch Code from [Stage 4] Assignment 1 to fix detrimental comments included in Prof's Email [Rename certain classes, variables, etc.]**
+- [ ] **Make sure to comment all code so it is clear what the code is doing [readability for other group members]. Comment in Java Docs style for readability, and ability to output Java Docs at end of project.**
 - [ ] **Implement New Feature 1:** Create new user, have each library have it's own unique ID, allow user to checkout items from specific libraries using the library's ID
 - [ ] **Implement New Feature 2:** Retain the checkin/checkout states & due dates for all items when exiting the program
 - [ ] **Implement New Feature 3:** Create ability to read XML file of a sister library. From this data, be able to display all fields. Be sure to catch all XML formatting issues, as formatting issues are guarneteed in this assignment.
@@ -34,7 +34,6 @@ SPRINT 2 CHECKLIST:
 - [ ] **Unit Test Feature 3** - The XML Parser
 - [ ] **Unit Test Feature 4** - The GUI
 - [ ] **Unit Test Misc Features(?)** - As needed...
-
 - [ ] Generate Java Docs based on commented code
 
 OPTINAL TASKS
