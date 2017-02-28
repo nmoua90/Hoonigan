@@ -5,4 +5,4 @@ This folder contains the progression of Assignment 1.
 
 Zip files in this folder contain all source files for each phase.
 
-Folders themselves contained the unzipped contents of the zip files. They are included simply for easier browsing of source code, when reading with GitHub.
+Folders contain the unzipped contents of zip files. They are included for easier browsing while reading with GitHub.
