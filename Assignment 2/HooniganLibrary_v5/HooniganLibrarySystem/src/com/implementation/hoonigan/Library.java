@@ -25,17 +25,16 @@ import com.gui.hoonigan.AdminFrame;
  * @author Hoonigan
  * 
  */
-public class LibrarySearch{
+public class Library{
 	/**Invariant Comments
-	 * - reader is a BufferedReader which is initially set to null. It is used to read a text stream from a JSON file within the init() method. After being initialized, its value never changes. 
-	 * - libraryMap	is a HashMap containing Library_Items. It is initially set to null, and is filled within the init() method. After being initialized, its contained elements do not change, though the fields of those elements may. 
+	 * - libraryMap	is a HashMap containing Library_Items. It is initially set to null, and is instantiated within the constructor().
 	 */
 	private Map<String, Item> libraryMap;
 	
 	/**InitializeProgram()
 	 * Default Constructor which sets fields
 	 */
-	public LibrarySearch(Map<String, Item> libraryMap){
+	public Library(Map<String, Item> libraryMap){
 		this.libraryMap = libraryMap;
 	}
 	
