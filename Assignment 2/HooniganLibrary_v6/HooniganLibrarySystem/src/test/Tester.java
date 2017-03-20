@@ -3,7 +3,7 @@ import com.implementation.hoonigan.*;
 
 public class Tester {
 	public static void main(String[] args){
-		Book book = new Book("Joe's Adventure", "BOOK", "8392de", "Joe King", 5);
+		BookItem book = new BookItem("Joe's Adventure", "BOOK", "8392de", "Joe King", 5);
 		DVD dvd = new DVD("Joe's DVD", "Dvd", "9898fsd", 3);
 		Magazine mag = new Magazine("Joe's Magmag", "magazine", "9898sdf", 5);
 		CD cd = new CD("CD of JOE", "cd", "898", "Joe King", 5);

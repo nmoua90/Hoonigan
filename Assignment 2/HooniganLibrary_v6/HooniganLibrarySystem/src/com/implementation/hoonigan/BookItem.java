@@ -2,19 +2,19 @@ package com.implementation.hoonigan;
 
 import java.time.LocalDate;
 
-/**Book class
+/**Books class
  *  
  * A simple Book class--extended from Abstract Library_Items class
  * @author Hoonigan
  * 
  */
-public class Book extends Item{
+public class BookItem extends Item{
 	/** Invariant Comments
 	 *  - item_author is initialized in the non-default CD Constructor. It's value can be changed, though changing it is not realistically supposed to be done.
 	 */ 
 	private String item_author;
 	
-	public Book(){
+	public BookItem(){
 	}
 	
 	/**Book(String name, String type, String id, String author)
@@ -25,7 +25,7 @@ public class Book extends Item{
 	 * @param libraryCode - the libraryID associated with this item
 	 * @param author - artist of Book
 	 */
-	public Book(String name, String type, String id, String author, int libraryCode){
+	public BookItem(String name, String type, String id, String author, int libraryCode){
 		libraryID = libraryCode;
 		item_name = name;
 		item_type = type;

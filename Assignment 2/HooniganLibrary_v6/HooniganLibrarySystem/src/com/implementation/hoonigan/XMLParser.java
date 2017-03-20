@@ -21,9 +21,6 @@ import java.util.List;
  */
 public class XMLParser {
 	private int libraryID;
-    /**xmlReader() -
-     * Parses an xml file.
-     */
 	
 	/**XMLParser()
 	 * default constructor
@@ -91,7 +88,7 @@ public class XMLParser {
                     }
 
                     else if (element.getElementsByTagName("type").item(i).getTextContent() == "BOOK"){
-                        Book book = new Book(
+                        BookItem book = new BookItem(
                         		element.getElementsByTagName("Name").item(i).getTextContent(),
                                 element.getElementsByTagName("type").item(i).getTextContent(),
                                 element.getElementsByTagName("id").item(i).getTextContent(),

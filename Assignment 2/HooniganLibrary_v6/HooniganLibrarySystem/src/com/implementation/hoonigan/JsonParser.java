@@ -61,7 +61,7 @@ public class JsonParser {
 						libraryMap.put(item.getItemId(), temp);
 					}
 					else if(deletedErroneousSpaces.compareToIgnoreCase("Book") == 0){
-						temp = new Book(item.getItemName(), item.getItemType().toUpperCase(), item.getItemId(), item.getItemAuthor(), libraryID);
+						temp = new BookItem(item.getItemName(), item.getItemType().toUpperCase(), item.getItemId(), item.getItemAuthor(), libraryID);
 						libraryMap.put(item.getItemId(), temp);
 					}
 					else if(deletedErroneousSpaces.compareToIgnoreCase("CD") == 0){
