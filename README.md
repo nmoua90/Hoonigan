@@ -10,7 +10,7 @@ SPRINT 2 TASKS & CHECKLIST:
 - **Implement/Test New Feature 4:** Matt & Nhia
 
 **SPRINT 2 CHECKLIST:**
-- [ ] **Re-Touch Code from [Stage 4] Assignment 1 to fix detrimental bugs. Most problems fixed but [OUR PROGRAM STILL DOES NOT HANDLE DUPLICATIONS]**
+- [ ] **Re-Touch Code from [Stage 4] Assignment 1 to fix detrimental bugs. Most problems fixed.
 - [ ] **Make sure to comment all code so it is clear what the code is doing [readability for other group members]. Comment in Java Docs style for readability, and ability to output Java Docs at end of project.**
 - [ ] **Implement New Feature 1:** Create new user, have each library have it's own unique ID, allow user to checkout items from specific libraries using the library's ID [Create abstract CLIENT class, extend from this (1) <User> Class, and (2) <Admin> Class. Fields should include (1) List of checked out items, (2) Username, (3) Password, (Etc: All fields found in the Register Screen in the GUI).
 - [ ] **Implement New Feature 2:** Retain the checkin/checkout states & due dates for all items when exiting the program [Save the status and fields of every Library Item(s), Save the status of all User accounts, Save the status of all Admin accounts].
