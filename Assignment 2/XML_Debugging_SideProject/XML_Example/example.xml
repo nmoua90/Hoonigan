@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Developers>
+    <Developer Id="1">
+        <Name>Sahil</Name>
+        <Surname>Huseynzade</Surname>
+        <Age>21</Age>
+    </Developer>
+    <Developer Id="2">
+        <Name>Bob</Name>
+        <Surname>Nobody</Surname>
+        <Age>20</Age>
+    </Developer>
+    <Developer Id="3">
+        <Name>Joe</Name>
+        <Surname>Bloggs</Surname>
+        <Age>19</Age>
+    </Developer>
+</Developers>
