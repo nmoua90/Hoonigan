@@ -1,0 +1,9 @@
+{
+  "library_items":
+  [
+    {
+      {"volume":"Volume 1","item_name":"FATE","item_type":"Magazine","item_id":"fatem01","returnDate":"NONE","checkedOut":false,"libraryID":0,"isLate":false,"fee":0.0,"uniqueQuantityID":1},
+{"item_name":"Shut Up, Little Man","item_type":"DVD","item_id":"shutu01","returnDate":"NONE","checkedOut":false,"libraryID":0,"isLate":false,"fee":0.0,"uniqueQuantityID":1}
+    }
+  ]
+}
