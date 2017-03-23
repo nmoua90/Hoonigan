@@ -1,4 +1,5 @@
 package com.implementation.hoonigan;
+import com.gui.hoonigan.*;
 
 import java.lang.reflect.Type;
 
@@ -18,9 +19,37 @@ import java.io.PrintStream;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
+/**
+ * 
+ * @author Hoonigan
+ *
+ */
 public class LibrarySerializer {
 
+	/**
+	 * Note for clarification:
+	 * All lists storing metadata are housed in SingletonInformationExpert class. Whenever we use anything, it's probably coming from
+	 * the SingletonInformationExpert class, and probably going back there too.
+	 */
+	
+	//This instantiates all relevant lists for metadata
+	private SingletonInformationExpert globalVariables = SingletonInformationExpert.getInstance();
+	
+	//HashMap with all Libraries
+	private Map<Integer, Library> libraryList = globalVariables.getLibraryList();
+		
+	//HashMap with all User accounts [userName, password]
+	private Map<String, Client> clientList = globalVariables.getClientList();
+		
+	//HashMap with only Admin accounts [userName, password]
+	private Map<String, Client> adminList = globalVariables.getAdminList();	
+			
+	//HashMap for all LibraryItems in system [ID, Item]
+	private Multimap<String, Item> libraryItemList = globalVariables.getLibraryItemList();
+		
     public static class ItemSerializer implements JsonSerializer<Item> {
         public JsonElement serialize(final Item item, final Type type, final JsonSerializationContext context) {
         	//Create a new Json object
