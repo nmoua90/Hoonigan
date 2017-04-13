@@ -3,12 +3,10 @@
 
  CHECKLIST:
 ----------
-**TBD DELEGATED WORK:**
-- **TBD 1:** TBD
-- **TBD 2:** TBD
-- **TBD 3:** TBD
-- **TBD 4:** TBD
 
 **TBD CHECKLIST:**
-- [X] **Make New Checklist:** Make a new checklist
-- 
+- [ ] **Add new features to Item class:** 
+- [X] **Create Physical Template for Android GUI:**
+- [X] **Import Backend Code to Android GUI:** 
+- [ ] **Link Backend Code to Android GUI:**
+
