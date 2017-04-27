@@ -1,0 +1,40 @@
+{
+  "library_items":
+  [
+    
+      {"item_author":"Alexandre Dumas","item_name":"The Count of Monte Cristo","item_type":"BOOK","item_id":"1adf4","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_author":"Alexandre Dumas","item_name":"The Count of Monte Cristo","item_type":"BOOK","item_id":"1adf4","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":1,"status":"AVAILABLE","checkoutable":true},
+    
+      {"volume":"","item_name":"Boy\u0027s Life","item_type":"MAGAZINE","item_id":"151e5dde","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_author":"William Shakespeare","item_name":"The Merchant of Venice","item_type":"BOOK","item_id":"ern222","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":1,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":2,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":3,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":4,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":5,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":6,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Toy Story","item_type":"DVD","item_id":"85545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":7,"status":"AVAILABLE","checkoutable":true},
+    
+      {"volume":"","item_name":"Cat Fancy v23","item_type":"MAGAZINE","item_id":"1a545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"volume":"","item_name":"Cat Fancy v23","item_type":"MAGAZINE","item_id":"1a545","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":1,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_name":"Enter the Dragon","item_type":"DVD","item_id":"52523","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_artist":"Pink Floyd","item_name":"The Wall","item_type":"CD","item_id":"15dde","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+    
+      {"item_artist":"Beatles","item_name":"Yellow Submarine","item_type":"CD","item_id":"48934j","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":0,"status":"AVAILABLE","checkoutable":true},
+{"item_artist":"Beatles","item_name":"Yellow Submarine","item_type":"CD","item_id":"48934j","returnDate":"NONE","checkedOut":false,"libraryID":24,"isLate":false,"fee":0.0,"uniqueQuantityID":1,"status":"AVAILABLE","checkoutable":true}
+    ]
+}

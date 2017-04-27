@@ -1,0 +1,6 @@
+{
+  "clients":
+  [
+{"access":true,"firstName":"admin","lastName":"admin","userName":"admin","password":["a","d","m","i","n"],"streetAddress":"admin","securityQuestion":"admin","securityAnswer":"admin","itemsCheckedOut":[]}
+    ]
+}
